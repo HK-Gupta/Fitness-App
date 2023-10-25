@@ -1,0 +1,29 @@
+<resources>
+    <string name="app_name">FitFusion</string>
+    <string name="bar_name">FITNESS APP</string>
+
+    <string name="jumping_jack">
+        Benefits of Jumping Jack \n1)It is a great cardiovascular exercise. \n2)Improves Coordination. \n3)It helps in toning your legs. \n4)Increases Heart Rate.
+    </string>
+    <string name="bodyweight_squats">
+        Benefits of Bodyweight Squats \n1)Excellent for building leg strength. \n2)Improve functional strength. \n3)It improves core strength and stability.
+    </string>
+    <string name="push_ups">
+        Benefits of Push-Ups \n1)Push-ups can be modified to target different muscle groups. \n2)Push-ups strengthen the chest, shoulders, and triceps while also engaging the core muscles. \n3)It helps to improve overall stability.
+    </string>
+    <string name="planks">
+        Benefits of Planks \n1)Planks are one of the best exercises for building core strength and stability. \n2)They are low-impact, reducing stress on joints compared to many other exercises. \n3)It reduce the risk of back pain.
+    </string>
+    <string name="lunges">
+        Benefits of Lunges \n1)Lunges enhance balance and stability due to the single-leg movement. \n2)They help increase hip and ankle mobility.
+    </string>
+    <string name="burpees">
+        Benefits of Burpees \n1)Burpees engage multiple muscle groups, providing a comprehensive full-body workout. \n2)They are excellent for burning calories in a short amount of time.
+    </string>
+    <string name="crunches">
+        Benefits of Crunches \n1)Crunches primarily target the rectus abdominis, helping to strengthen and tone the front of your abdominal muscles. \n2) Strengthening your abdominal muscles through crunches can help you maintain better posture. \n3)The endorphins released during exercise can help reduce stress and improve mood.
+    </string>
+    <string name="exercise_bar">EXERCISE</string>
+    <string name="step_counter">STEP COUNTER</string>
+
+</resources>

@@ -1,0 +1,70 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.cardview.widget.CardView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    app:cardBackgroundColor="@color/back_color"
+    android:layout_margin="4dp">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="7dp">
+
+        <com.airbnb.lottie.LottieAnimationView
+            android:id="@+id/lottie_rv_exercise"
+            android:layout_width="100dp"
+            android:layout_height="100dp"
+            android:layout_marginStart="10dp"
+            android:layout_marginTop="10dp"
+            android:layout_marginEnd="10dp"
+            android:layout_marginBottom="10dp"
+            android:background="@color/back_color"
+            app:lottie_autoPlay="true"
+            app:lottie_loop="true" />
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_centerInParent="true"
+            android:layout_margin="7dp"
+            android:orientation="vertical"
+            android:layout_toRightOf="@+id/lottie_rv_exercise"
+            android:layout_toLeftOf="@+id/rv_image_arrow">
+
+            <TextView
+                android:id="@+id/rv_exercise_name"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Exercise Name"
+                android:textSize="18sp"
+                android:padding="7dp"
+                android:fontFamily="@font/abel"
+                android:textAllCaps="true"
+                android:textColor="@color/white"
+                android:textStyle="bold"/>
+            <TextView
+                android:id="@+id/rv_exercise_time"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Time"
+                android:textSize="16sp"
+                android:padding="7dp"
+                android:fontFamily="@font/abel"
+                android:textColor="@color/white"/>
+
+        </LinearLayout>
+
+        <ImageView
+            android:id="@+id/rv_image_arrow"
+            android:layout_width="30dp"
+            android:layout_height="30dp"
+            android:layout_alignParentEnd="true"
+            android:layout_alignParentRight="true"
+            android:layout_centerInParent="true"
+            android:src="@drawable/ic_arror_right"
+            app:tint="@color/white" />
+
+    </RelativeLayout>
+
+</androidx.cardview.widget.CardView>
