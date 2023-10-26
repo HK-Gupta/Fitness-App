@@ -33,7 +33,7 @@ public class ExerciseDetails extends AppCompatActivity {
 
         ActionBar actionBar = getSupportActionBar();
         actionBar.setTitle(exeName);
-        actionBar.setDisplayHomeAsUpEnabled(true);
+        actionBar.setDisplayHomeAsUpEnabled(false);
         ColorDrawable colorDrawable = new ColorDrawable(Color.parseColor("#222738"));
         actionBar.setBackgroundDrawable(colorDrawable);
         if(Build.VERSION.SDK_INT >= 21) {

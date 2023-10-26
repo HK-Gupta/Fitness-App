@@ -28,7 +28,7 @@ public class ExerciseActivity extends AppCompatActivity implements ExerciseAdapt
 
         ActionBar actionBar = getSupportActionBar();
         actionBar.setTitle(R.string.exercise_bar);
-        actionBar.setDisplayHomeAsUpEnabled(true);
+        actionBar.setDisplayHomeAsUpEnabled(false);
         ColorDrawable colorDrawable = new ColorDrawable(Color.parseColor("#222738"));
         actionBar.setBackgroundDrawable(colorDrawable);
         if(Build.VERSION.SDK_INT >= 21) {
