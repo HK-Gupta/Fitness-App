@@ -28,7 +28,7 @@ public class Splash extends AppCompatActivity {
         ActionBar actionBar = getSupportActionBar();
         actionBar.setTitle(R.string.bar_name);
         actionBar.setDisplayHomeAsUpEnabled(true);
-        ColorDrawable colorDrawable = new ColorDrawable(Color.parseColor("#444d5a"));
+        ColorDrawable colorDrawable = new ColorDrawable(Color.parseColor("#222738"));
         actionBar.setBackgroundDrawable(colorDrawable);
         if(Build.VERSION.SDK_INT >= 21) {
             Window window = this.getWindow();

@@ -21,6 +21,7 @@
             <com.airbnb.lottie.LottieAnimationView
                 android:id="@+id/lottie_exercise_details"
                 android:layout_width="210dp"
+                android:background="@color/back_color"
                 android:layout_height="210dp"
                 android:layout_gravity="center"
                 android:layout_margin="18dp"
